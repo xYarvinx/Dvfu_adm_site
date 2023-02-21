@@ -1,0 +1,52 @@
+#subscribe,
+#login{
+    width: 300;
+    height: 215;
+    color: #fff;
+    margin-top: 150;
+    margin-left: 117.5;
+    background: rgb(58,36,173,0.2);
+}
+#login{
+    z-index: 40;
+}
+
+::-webkit-input-placeholder  {
+    color: rgb(190, 188, 188);
+    font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+    color: rgb(190, 188, 188);
+    font-style: italic;
+}
+input {
+  outline: none;
+}
+
+/*стилизуем  кнопку*/
+#wrapper p.button input{
+    width: 30%;
+    cursor: pointer;
+    background: rgb(36, 14, 145);
+    padding: 6px 3px;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: 1px solid rgb(8, 12, 71);
+    margin-bottom: 10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    
+}
+#wrapper p.button input:hover{
+    background: rgb(10, 42, 185);
+}
+#wrapper p.button input:active,
+#wrapper p.button input:focus{
+    background: rgb(10, 42, 185);
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(10, 42, 185);
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
